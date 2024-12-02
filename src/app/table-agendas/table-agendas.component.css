@@ -22,8 +22,10 @@ table tr:hover {
     background-color: #f1f1f1;
 }
 
-@media (max-width: 480px) {
-    header > h1 {
-        color: blue;
-    }
+@media (max-width: 768px) {
+    table th, table td {
+        padding: 6px;
+        text-align: left;
+        border: 1px solid black;
+      }
 }

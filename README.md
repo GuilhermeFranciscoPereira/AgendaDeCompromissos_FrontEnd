@@ -7,13 +7,12 @@
 
 > 👨‍🏫 Projeto proposto pelo professor: Glauco Toledo.
 
-## Commit feito para criação da primeira versão da tabela.
-> Commit do dia 02/12/2024 - 17:11
+## Commit feito para aprimorar os estilos e adicionar a responsividade para os celulares.
+> Commit do dia 02/12/2024 - 17:30
 
-### Criado a tabela "Base" e adicionado ao arquivo html principal para ficar como um componente "fixo".
-### Pequenas alterações também feitas na estilização do header, como a fonte e cor do h1 e o background e cor do botão.
-### Header e a tabela na primeira versão do site:
-![Imagem de como está o Header e a tabela na primeira versão do site](./src/assets/headerAndTable.png)
+### Pequenas adições de estilizações e adição da responsividade.  
+### Como ficou o site com a responsividade:
+![Imagem de como está o Header e a tabela na primeira versão do site](./src/assets/responsividade.png)
 
 #
 

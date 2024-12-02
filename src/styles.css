@@ -1,5 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    margin: 0px 10px 0px 10px;
-    font-family: 'Arial', sans-serif;
+    max-width: 100vw;
+    min-height: 100vh;
     color: #2c3e50;
+    overflow-x: hidden;
+    font-family: 'Arial', sans-serif;
 }
