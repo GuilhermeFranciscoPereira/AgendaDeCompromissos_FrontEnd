@@ -7,12 +7,16 @@
 
 > 👨‍🏫 Projeto proposto pelo professor: Glauco Toledo.
 
-## Commit feito para aprimorar os estilos e adicionar a responsividade para os celulares.
-> Commit do dia 02/12/2024 - 17:30
+## Commit feito para adicionar os botões de edição e de deletar nas opções.
+> Commit do dia 03/12/2024 - 15:56
 
-### Pequenas adições de estilizações e adição da responsividade.  
-### Como ficou o site com a responsividade:
-![Imagem de como está o Header e a tabela na primeira versão do site](./src/assets/responsividade.png)
+### Criado os compononentes dos dois botões e adicionado nas tabelas
+### Como ficou o site com as cameras adicionadas:
+- #### No pc:
+![Imagem de como está no computador](./src/assets/pcButtons.png)
+
+- #### No mobile:
+![Imagem de como está no mobile](./src/assets/mobileButtons.png)
 
 #
 

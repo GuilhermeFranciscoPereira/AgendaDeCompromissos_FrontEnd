@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { TableAgendasComponent } from './table-agendas/table-agendas.component';
+import { ButtonEditComponent } from './button-edit/button-edit.component';
+import { ButtonDeleteComponent } from './button-delete/button-delete.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    TableAgendasComponent
+    TableAgendasComponent,
+    ButtonEditComponent,
+    ButtonDeleteComponent
   ],
   imports: [
     BrowserModule,
