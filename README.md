@@ -7,16 +7,12 @@
 
 > 👨‍🏫 Projeto proposto pelo professor: Glauco Toledo.
 
-## Commit feito para adicionar os botões de edição e de deletar nas opções.
-> Commit do dia 03/12/2024 - 15:56
+## Commit feito para criar o serviço para fazer o metodo GET no banco de dados
+> Commit do dia 04/12/2024 - 16:01
 
-### Criado os compononentes dos dois botões e adicionado nas tabelas
-### Como ficou o site com as cameras adicionadas:
-- #### No pc:
-![Imagem de como está no computador](./src/assets/pcButtons.png)
-
-- #### No mobile:
-![Imagem de como está no mobile](./src/assets/mobileButtons.png)
+### Criado o serviço para fazer a requisição GET e também feito pequenas alterações no código para conseguir realizar essa requisição.
+### Como está vindo as respostas do Back-End Java:
+![Imagem de como está no computador](./src/assets/responseFromBackend.png)
 
 #
 

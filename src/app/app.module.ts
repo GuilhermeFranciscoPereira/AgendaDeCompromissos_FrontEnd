@@ -7,6 +7,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { TableAgendasComponent } from './components/table-agendas/table-agendas.component';
 import { ButtonEditComponent } from './components/Buttons/button-edit/button-edit.component';
 import { ButtonDeleteComponent } from './components/Buttons/button-delete/button-delete.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ButtonDeleteComponent } from './components/Buttons/button-delete/button
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
