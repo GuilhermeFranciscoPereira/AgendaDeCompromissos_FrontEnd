@@ -15,7 +15,7 @@ header > h1 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-header > button {
+header > a  {
     background-color: lightgreen;
     border: none;
     font-family: 'Arial', sans-serif;
@@ -29,14 +29,14 @@ header > button {
     transition: all 0.3s ease;
 }
 
-header > button:hover {
+header > a:hover {
     background-color: lightgreen;
     transform: scale(1.05);
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
     cursor: pointer;
 }
 
-header > button:active {
+header > a:active {
     transform: scale(1);
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }

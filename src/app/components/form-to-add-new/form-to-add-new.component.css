@@ -1,0 +1,65 @@
+#formToAddNewOne {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px black;
+}
+
+#formToAddNewOne > h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#formToAddNewOne > form > .formsSection {
+    margin-bottom: 15px;
+}
+
+#formToAddNewOne > form > .formsSection > label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#formToAddNewOne > form > .formsSection > input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+#formToAddNewOne > form > .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+#formToAddNewOne > form > .buttons > button, a {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 50%;
+}
+
+#formToAddNewOne > form > .buttons > a {
+    background-color: rgba(255, 0, 0, 0.623);
+}
+
+#formToAddNewOne > form > .buttons > button:hover {
+    background-color: #45a049;
+}
+
+#formToAddNewOne > form > .buttons > a:hover {
+    background-color: red;
+}

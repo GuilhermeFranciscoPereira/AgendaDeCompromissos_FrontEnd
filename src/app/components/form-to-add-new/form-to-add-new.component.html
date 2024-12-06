@@ -1,0 +1,24 @@
+<div id="formToAddNewOne">
+  <h2>Formulário para criar um novo compromisso</h2>
+  <form [formGroup]="formGroupAgenda">
+    <div class="formsSection">
+      <label for="name">Compromisso</label>
+      <input formControlName="name" type="text" id="name" name="name" required placeholder="Ex: Reunião, consulta, etc.">
+    </div>
+
+    <div class="formsSection">
+      <label for="local">Local</label>
+      <input formControlName="local" type="text" id="local" name="local" required placeholder="Ex: Escritório, Hospital, etc.">
+    </div>
+
+    <div class="formsSection">
+      <label for="date">Data</label>
+      <input formControlName="date" type="text" id="date" name="date" placeholder="Exemplo: 10/12/2024" required>
+    </div>
+
+    <div class="buttons">
+      <a href="">Cancelar</a>
+      <button type="button" (click)="save()">Salvar</button>
+    </div>
+  </form>
+</div>

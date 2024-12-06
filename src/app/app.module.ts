@@ -8,6 +8,8 @@ import { TableAgendasComponent } from './components/table-agendas/table-agendas.
 import { ButtonEditComponent } from './components/Buttons/button-edit/button-edit.component';
 import { ButtonDeleteComponent } from './components/Buttons/button-delete/button-delete.component';
 import { HttpClientModule } from '@angular/common/http';
+import { FormToAddNewComponent } from './components/form-to-add-new/form-to-add-new.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -15,12 +17,14 @@ import { HttpClientModule } from '@angular/common/http';
     HeaderComponent,
     TableAgendasComponent,
     ButtonEditComponent,
-    ButtonDeleteComponent
+    ButtonDeleteComponent,
+    FormToAddNewComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

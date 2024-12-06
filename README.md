@@ -7,12 +7,12 @@
 
 > 👨‍🏫 Projeto proposto pelo professor: Glauco Toledo.
 
-## Commit feito para criar o serviço para fazer o metodo DELETE no banco de dados
-> Commit do dia 06/12/2024 - 11:38
+## Commit feito para criar o serviço para fazer o metodo POST no banco de dados
+> Commit do dia 06/12/2024 - 14:25
 
-### Criado o serviço para fazer a requisição DELETE e também feito pequenas alterações no código para conseguir realizar.
-### Como está o código após adicionar a opção de deletar:
-![Imagem de como está no computador](./src/assets/delete.png)
+### Criado o serviço para fazer a requisição POST e também feito pequenas alterações no código para conseguir realizar.
+### Como está o site após adicionar a opção de criar um novo compromisso:
+![Imagem de como está no computador](./src/assets/post.png)
 
 #
 

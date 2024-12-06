@@ -20,4 +20,8 @@ export class AgendaService {
     return this.http.delete<void>(this.url + `/${agenda.id}`);
   }
 
+  save(agenda: AgendaType): Observable<AgendaType>{
+    return this.http.post<AgendaType>(this.url, agenda);
+  }
+
 }
