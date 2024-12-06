@@ -8,10 +8,16 @@ import { AgendaType } from '../types/AgendaTypes';
 })
 export class AgendaService {
 
-  url = ''
+  url = 'http://localhost:8080/agenda'
 
   constructor(private http:HttpClient) { }
+
   getAgendas(): Observable<Array<AgendaType>> {
-    return this.http.get<Array<AgendaType>>("http://localhost:8080/agenda");
+    return this.http.get<Array<AgendaType>>(this.url);
   }
+
+  delete(agenda: AgendaType): Observable<void> {
+    return this.http.delete<void>(this.url + `/${agenda.id}`);
+  }
+
 }

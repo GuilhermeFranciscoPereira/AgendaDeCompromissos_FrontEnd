@@ -18,7 +18,7 @@
                 <td>{{agenda.date}}</td>
                 <td>
                     <app-button-edit></app-button-edit>
-                    <app-button-delete></app-button-delete>
+                    <app-button-delete (click)="delete(agenda)"></app-button-delete>
                 </td>
             </tr>
         </tbody>

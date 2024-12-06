@@ -12,12 +12,20 @@ import { AgendaService } from '../../services/agenda.service';
 export class TableAgendasComponent implements OnInit {
   agendas : Array<AgendaType> = [];
   constructor(private service: AgendaService) {};
+
   ngOnInit(): void {
       this.loadAgendas();
   }
+
   loadAgendas() {
     this.service.getAgendas().subscribe({
       next: data => this.agendas = data
+    })
+  }
+
+  delete(agenda: AgendaType) {
+    this.service.delete(agenda).subscribe({
+      next: () => this.loadAgendas()
     })
   }
 } 
