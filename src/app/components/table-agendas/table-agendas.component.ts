@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { AgendaType } from '../../types/AgendaTypes';
 import { AgendaService } from '../../services/agenda.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-table-agendas',

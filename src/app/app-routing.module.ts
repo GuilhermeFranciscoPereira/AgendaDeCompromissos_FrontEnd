@@ -4,8 +4,9 @@ import { formToAgendaComponent } from './components/form-to-agenda/form-to-agend
 import { TableAgendasComponent } from './components/table-agendas/table-agendas.component';
 
 const routes: Routes = [
-  {path: 'AdicionarNovoCompromisso', component: formToAgendaComponent},
-  {path: '', component: TableAgendasComponent}
+  {path: '', component: TableAgendasComponent},
+  {path: 'FormularioCompromisso', component: formToAgendaComponent},
+  {path: 'FormularioCompromisso/\:id', component: formToAgendaComponent}
 ];
 
 @NgModule({

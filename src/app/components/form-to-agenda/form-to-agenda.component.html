@@ -1,5 +1,5 @@
 <div id="formToAgenda">
-  <h2>Formulário para criar um novo compromisso</h2>
+  <h2>Formulário de compromissos</h2>
   <form [formGroup]="formGroupAgenda">
     <div class="formsSection">
       <label for="name">Compromisso</label>
@@ -18,7 +18,8 @@
 
     <div class="buttons">
       <a href="">Cancelar</a>
-      <button type="button" (click)="save()">Salvar</button>
+      <button *ngIf="Creating" type="button" (click)="save()">Salvar</button>
+      <button *ngIf="Editing" type="button" (click)="update()">Atualizar</button>
     </div>
   </form>
 </div>

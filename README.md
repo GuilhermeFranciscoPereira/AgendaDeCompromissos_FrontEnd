@@ -7,11 +7,11 @@
 
 > 👨‍🏫 Projeto proposto pelo professor: Glauco Toledo.
 
-## Commit feito para criar o serviço para fazer o metodo POST no banco de dados
-> Commit do dia 06/12/2024 - 14:25
+## Commit feito para criar o serviço para fazer o metodo PUT no banco de dados
+> Commit do dia 09/12/2024 - 15:59
 
-### Criado o serviço para fazer a requisição POST e também feito pequenas alterações no código para conseguir realizar.
-### Como está o site após adicionar a opção de criar um novo compromisso:
+### Criado o serviço para fazer a requisição PUT e também feito pequenas alterações no código para conseguir realizar o método de alteração.
+### Como está o site após adicionar a opção de editar um compromisso existente:
 ![Imagem de como está no computador](./src/assets/post.png)
 
 #

@@ -17,7 +17,7 @@
                 <td>{{agenda.local}}</td>
                 <td>{{agenda.date}}</td>
                 <td>
-                    <app-button-edit></app-button-edit>
+                    <a [routerLink]="['FormularioCompromisso/', agenda.id]"><app-button-edit></app-button-edit></a>
                     <app-button-delete (click)="delete(agenda)"></app-button-delete>
                 </td>
             </tr>
