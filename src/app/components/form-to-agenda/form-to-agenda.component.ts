@@ -4,14 +4,14 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-form-to-add-new',
+  selector: 'app-form-to-agenda',
   standalone: false,
   
-  templateUrl: './form-to-add-new.component.html',
-  styleUrl: './form-to-add-new.component.css'
+  templateUrl: './form-to-agenda.component.html',
+  styleUrl: './form-to-agenda.component.css'
 })
 
-export class FormToAddNewComponent {
+export class formToAgendaComponent {
   formGroupAgenda: FormGroup;
 
   constructor(private service: AgendaService, private router: Router, private formBuilder: FormBuilder){
