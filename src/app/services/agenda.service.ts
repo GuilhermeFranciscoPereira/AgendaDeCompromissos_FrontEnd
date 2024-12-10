@@ -8,7 +8,7 @@ import { AgendaType } from '../types/AgendaTypes';
 })
 export class AgendaService {
 
-  url = 'http://localhost:8080/agenda'
+  url = 'https://api.agendadecompromissos.duckdns.org/agenda'
 
   constructor(private http:HttpClient) { }
 
